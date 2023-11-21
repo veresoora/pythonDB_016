@@ -47,31 +47,31 @@ def hitung_prediksi():
 # Membuat GUI
 root = tk.Tk()
 root.configure(background='pink')
-root.geometry("400x400")
+root.geometry("400x500")
 root.resizable(False,False)
 
 root.title("Aplikasi Prediksi Prodi Pilihan")
 
 label_judul = tk.Label(root, text="Aplikasi prediksi Prodi Pilihan")
-label_judul.pack(padx=100, pady=10, fill="x", expand=True)
+label_judul.pack(padx=10, pady=0, fill="x", expand=True)
 
 label_nama = tk.Label(root, text="Nama Siswa:")
-label_nama.pack(padx=100, pady=5, fill="x", expand=True)
+label_nama.pack(padx=10, pady=5, fill="x", expand=True)
 entry_nama = tk.Entry(root)
 entry_nama.pack()
 
 label_biologi = tk.Label(root, text="Nilai Biologi:")
-label_biologi.pack(padx=100, pady=5, fill="x", expand=True)
+label_biologi.pack(padx=10, pady=5, fill="x", expand=True)
 entry_biologi = tk.Entry(root)
 entry_biologi.pack()
 
 label_fisika = tk.Label(root, text="Nilai Fisika:")
-label_fisika.pack(padx=100, pady=5, fill="x", expand=True)
+label_fisika.pack(padx=10, pady=5, fill="x", expand=True)
 entry_fisika = tk.Entry(root)
 entry_fisika.pack()
 
 label_inggris = tk.Label(root, text="Nilai Inggris:")
-label_inggris.pack(padx=100, pady=5, fill="x", expand=True)
+label_inggris.pack(padx=10, pady=5, fill="x", expand=True)
 entry_inggris = tk.Entry(root)
 entry_inggris.pack()
 
